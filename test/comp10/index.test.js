@@ -104,6 +104,8 @@ function runTest(id) {
 }
 
 test('comp10', () => {
-    const id = simulate.load(path.resolve(__dirname, './index'))
+    const id = simulate.load(path.resolve(__dirname, './index'), {
+        rootPath: path.resolve(__dirname, '../')
+    })
     runTest(id)
 })
