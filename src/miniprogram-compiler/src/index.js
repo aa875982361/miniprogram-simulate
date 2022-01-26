@@ -30,8 +30,8 @@ module.exports = {
             })
         }
 
-        console.log('wxmlList', wxmlList)
-        console.log('wxsList', wxsList)
+        // console.log('wxmlList', wxmlList)
+        // console.log('wxsList', wxsList)
         const compileResult = wcc(rootPath, wxmlList, wxsList)
         // console.log('compileResult', compileResult)
 
